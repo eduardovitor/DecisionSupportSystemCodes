@@ -46,6 +46,6 @@ def main():
                 disponibilidades_digitadas.append(disp)
             
     disp_sistema = calcula_disp_sistema(disponibilidades_blocos)
-    print('A disponibilidade ou custo total do sistema foi de {}'.format(disp_sistema))
+    print('A disponibilidade do sistema foi de {}'.format(disp_sistema))
     
 main()

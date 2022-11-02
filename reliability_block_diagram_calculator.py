@@ -16,9 +16,9 @@ def calculo_bloco_paralelo(disponibilidades):
     return disponibilidade_sis
 
 def calcula_disp_sistema(disponibilidades_blocos):
-    disp_sistema = 0
+    disp_sistema = 1
     for d in disponibilidades_blocos:
-        disp_sistema = disp_sistema + d
+        disp_sistema = disp_sistema * d
     return disp_sistema
 
 def main():
